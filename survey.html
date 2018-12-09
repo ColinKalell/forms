@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<style>
+body {
+font-size: 1.3em;
+background-color: beige;
+
+}
+content{
+width:90%;
+margin:auto;
+}
+
+h1 {
+text-align:center;
+}
+
+form {
+margin-left:5%;
+}
+input {
+margin-bottom:2%;
+}
+input#submit {
+display:block;
+background-color:#33ff99;
+font-weight:bold;
+padding: 20px;
+font-size: 1.5em;
+}
+
+select option {
+font-size: 1.75em;
+width: 150px;
+}
+
+button { 
+display:block;
+background-color:#33ff99;
+font-weight:bold ;
+}
+
+</style>
+
+<title>Forms</title>
+<meta charset="utf-8">
+</head>
+
+<h1>Music Survey</h1>
+
+<form method="get"> 
+Name: <input type="text" name="name" id="name"><br>
+E-mail: <input type="text" name="email" id="email">
+
+
+
+<body>
+
+<form>
+ <fieldset>
+<legend> <b>Select Your Favorite Type of Music:</b><br> </legend> 
+<input type="checkbox" name="pop" id="pop" value="yes">Pop<br> 
+<input type="checkbox" name="classical" id="classical" value="yes">Classical<br> 
+<input type="checkbox" name="rock" id="rock" value="yes">Rock<br>
+<input type="checkbox" name="folk" id="folk" value="yes">Folk<br>
+<input type="checkbox" name="rap" id="rap" value="yes">Rap<br>
+<input type="checkbox" name="other" id="other" value="yes">Other<br>
+ </fieldset>
+ </form>
+ <form>
+ <fieldset>
+<legend><b>How Often Do You Purchase CDs?</b><br></legend>
+<input type="checkbox" name="weekly" id="weekly" value="yes">Weekly<br>
+<input type="checkbox" name="A few per year" id="A few per year" value="yes">A few per year<br>
+<input type="checkbox" name="monthly" id="monthly" value="yes">Monthly<br>
+<input type="checkbox" name="never" id="never" value="yes">Never<br>
+ </fieldset>
+ 
+<b>Select The Locations You Listen To Music:</b><br>
+<select size="1" name="where" id="where">
+<option> Home</option>
+<option> Work</option>
+<option> School</option>
+<option> Car</option>
+</select>
+<br>
+
+<br>
+<b>What Role Does Music Play In Your Life?</b> <br>
+<textarea name="what role" id="role" cols="60" rows="3"> Answer Here</textarea>
+
+<br>
+
+<button type="submit">
+<img src="file:///Users/colinkalell/Desktop/Exploring%20The%20Internet/submit.png" width="80" height="28"><br>
+</button>
+
+
+
+</body>
+</html>
